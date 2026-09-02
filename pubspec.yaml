@@ -1,0 +1,38 @@
+name: firebase_auth_platform_interface
+description: A common platform interface for the firebase_auth plugin.
+homepage: https://github.com/firebase/flutterfire/tree/main/packages/firebase_auth/firebase_auth_platform_interface
+repository: https://github.com/firebase/flutterfire/tree/main/packages/firebase_auth/firebase_auth_platform_interface
+# NOTE: We strongly prefer non-breaking changes, even at the expense of a
+# less-clean API. See https://flutter.dev/go/platform-interface-breaking-changes
+version: 9.0.7
+publish_to: none
+
+
+environment:
+  sdk: '^3.12.0'
+  flutter: '>=3.44.0'
+
+dependencies:
+  flutterfire_internals:
+    git: https://github.com/kumsumit/flutterfire_internals.git
+  collection: ^1.19.1
+  firebase_core: 
+    git: https://github.com/kumsumit/firebase_core.git
+  flutter:
+    sdk: flutter
+  http: ^1.6.0
+  meta: ^1.19.0
+  plugin_platform_interface: 
+    git: https://github.com/kumsumit/plugin_platform_interface.git
+
+dev_dependencies:
+  firebase_core_platform_interface:
+    git: https://github.com/kumsumit/firebase_core_platform_interface.git
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.8.1
+  pigeon: 28.0.0
+
+  # NOTE: This is a temporary workaround for Flutter 3.13
+  watcher: ^1.2.1
+
