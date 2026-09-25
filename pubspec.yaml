@@ -9,8 +9,8 @@ publish_to: none
 
 
 environment:
-  sdk: '^3.12.0'
-  flutter: '>=3.44.0'
+  sdk: '^3.13.0'
+  flutter: '>=3.47.0'
 
 dependencies:
   flutterfire_internals:
@@ -31,7 +31,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   mockito: ^5.8.1
-  pigeon: 28.0.0
+  pigeon: 29.0.4
 
   # NOTE: This is a temporary workaround for Flutter 3.13
   watcher: ^1.2.1

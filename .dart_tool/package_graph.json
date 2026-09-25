@@ -33,7 +33,7 @@
     },
     {
       "name": "pigeon",
-      "version": "28.0.0",
+      "version": "29.0.4",
       "dependencies": [
         "analyzer",
         "args",
@@ -83,11 +83,10 @@
     },
     {
       "name": "firebase_core_platform_interface",
-      "version": "7.0.1",
+      "version": "8.1.1",
       "dependencies": [
         "collection",
         "flutter",
-        "flutter_test",
         "meta",
         "plugin_platform_interface"
       ]
@@ -295,11 +294,6 @@
       "dependencies": []
     },
     {
-      "name": "vector_math",
-      "version": "2.4.2",
-      "dependencies": []
-    },
-    {
       "name": "term_glyph",
       "version": "1.2.2",
       "dependencies": []
@@ -329,29 +323,9 @@
       ]
     },
     {
-      "name": "analyzer",
-      "version": "14.3.0",
-      "dependencies": [
-        "_fe_analyzer_shared",
-        "collection",
-        "convert",
-        "crypto",
-        "glob",
-        "meta",
-        "package_config",
-        "path",
-        "pub_semver",
-        "source_span",
-        "watcher",
-        "yaml"
-      ]
-    },
-    {
-      "name": "_fe_analyzer_shared",
-      "version": "107.0.0",
-      "dependencies": [
-        "meta"
-      ]
+      "name": "vector_math",
+      "version": "2.4.3",
+      "dependencies": []
     },
     {
       "name": "string_scanner",
@@ -383,6 +357,31 @@
       "name": "built_collection",
       "version": "5.1.1",
       "dependencies": []
+    },
+    {
+      "name": "analyzer",
+      "version": "14.4.0",
+      "dependencies": [
+        "_fe_analyzer_shared",
+        "collection",
+        "convert",
+        "crypto",
+        "glob",
+        "meta",
+        "package_config",
+        "path",
+        "pub_semver",
+        "source_span",
+        "watcher",
+        "yaml"
+      ]
+    },
+    {
+      "name": "_fe_analyzer_shared",
+      "version": "108.0.0",
+      "dependencies": [
+        "meta"
+      ]
     },
     {
       "name": "http_parser",

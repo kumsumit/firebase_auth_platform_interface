@@ -25,7 +25,7 @@ void setupFirebaseAuthMocks([Callback? customHandlers]) {
 }
 
 void handleEventChannel(
-  final String name, [
+  String name, [
   List<MethodCall>? log,
 ]) {
   TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
